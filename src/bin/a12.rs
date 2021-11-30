@@ -57,4 +57,13 @@ fn main() {
 
   let small_box = ShippingBox::new(Color::Brown, 2.0, small_dimensions);
   small_box.print();
+
+  let large_dimensions = Dimensions {
+    width: 10.0,
+    height: 40.0,
+    depth: 80.0,
+  };
+
+  let large_box = ShippingBox::new(Color::Red, 129.54, large_dimensions);
+  large_box.print();
 }
