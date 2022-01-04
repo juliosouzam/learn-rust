@@ -7,3 +7,6 @@ edition = "2018"
 
 [dependencies]
 uuid = { version = "0.8", features = ["serde", "v4"] }
+chrono = "0.4.19"
+thiserror = "1.0.30"
+structopt = "0.3.25"
